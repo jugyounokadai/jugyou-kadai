@@ -1,0 +1,10 @@
+th{
+    background-color: aquamarine;
+    width: 32px;
+    font-size: 18px;
+}
+td{
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 18px;
+}
