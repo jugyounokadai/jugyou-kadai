@@ -10,7 +10,7 @@ let btn = document.querySelector(`botton`);
 btn.addEventListener(`click`,() =>{
     let ipt = document.querySelector(`input`);
     addMessage(ipt.value);
-    if(ipt.value == quiz[0][1]){
+    if(ipt.value == quiz[qnum][1]){
         qnum += 1;
         qnum %= quiz.length;
         addMessage(`正解！ 次は` + quiz[qnum][0])
