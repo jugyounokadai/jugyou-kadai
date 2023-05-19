@@ -5,4 +5,7 @@ let quiz = [
     [`ブラウザ`,`browser`],
     [`アカウント`,`account`],
     [`デフォルト`,`default`],
+    ['りんご','apple'],
+    ['サーモン','salmon'],
+    ['音楽','music'],
 ];
