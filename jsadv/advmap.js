@@ -8,7 +8,7 @@ let showMap = () => {
         keyflag = true;
         map[y][x] = '─';
     }else if(chip == 'D'){
-        elem.innerHTML = '<img src="adv_img/door.png">'
+        elem.innerHTML = '<img src="adv_img/door.png">';
         if(keyflag == true){
             map[y][x] = '─';
             elem.innerHTML = '<img src="adv_img/left_right.png">' + '<img src="adv_img/man.png">';
