@@ -1,3 +1,7 @@
+body{
+    background-color: aquamarine;
+}
+
 div{
     width: 600px;
     margin: auto;
@@ -19,6 +23,6 @@ li:nth-child(even){
     background: url("img/text_tobidashi_chuui_blank.png");
     width: 200px;
     height: 60px;
-    padding: 90px 20px 115px 80px;
+    padding: 90px 30px 115px 80px;
     list-style: none;
 }
