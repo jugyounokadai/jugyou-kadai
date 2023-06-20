@@ -7,9 +7,3 @@ input{
     margin-left: 140px;
     background: url("img/cat_left.png");
 }
-
-centering_parent{
-    padding: 20px;
-    text-align: center;
-    height: 100px;
-}
