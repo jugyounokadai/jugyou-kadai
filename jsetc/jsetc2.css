@@ -5,12 +5,10 @@ div{
 }
 
 input{
-    background: url("img/pose_shinpai_fukidashi_man.png");
     margin-left: 240px;
 }
 
 body{
-    background: url("img/pose_shinpai_fukidashi_man.png");
     width: 300px;
     height: 300px;
     padding: 190px 130px 140px 180px;
