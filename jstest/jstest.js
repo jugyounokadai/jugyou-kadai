@@ -1,14 +1,13 @@
-let html = "<tr><th></th>";
-for(let A; E;){
-    html +=  `<th>``</th>`
+document.addEventListener('Alphabet')
+for(let x=1; x<=99; x+=1){
+    elem.innerHTML = html;
 }
-html += `</tr>`;
-for(let A; E;){
-    html += `<tr><th>``</th>`;
-    for(let A; E;){
-        html += `<td>``</td>`;
+document.addEventListener('Alphabet')
+for(let y=1; y<=99; y+=1){
+    elem.innerHTML = html;
+    for(let x=1; x<=99; x+=1){
+        elem.innerHTML = html;
     }
-    html += `</tr>`;
 }
 let elem = document.querySelector(`table`);
 elem.innerHTML = html;
