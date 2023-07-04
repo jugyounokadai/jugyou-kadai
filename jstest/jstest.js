@@ -1,13 +1,14 @@
-document.addEventListener('Alphabet')
-for(let x=1; x<=99; x+=1){
-    elem.innerHTML = html;
+let html = "<tr><th></th>";
+for(let x=A; x<=E; x+=A){
+    html +=  `<th>` + x + `</th>`
 }
-document.addEventListener('Alphabet')
-for(let y=1; y<=99; y+=1){
-    elem.innerHTML = html;
-    for(let x=1; x<=99; x+=1){
-        elem.innerHTML = html;
+html += `</tr>`;
+for(let y=A; y<=E; y+=A){
+    html += `<tr><th>` + y + `</th>`;
+    for(let x=A; x<=E; x+=A){
+        html += `<td>` + x*y + `</td>`;
     }
+    html += `</tr>`;
 }
 let elem = document.querySelector(`table`);
 elem.innerHTML = html;
