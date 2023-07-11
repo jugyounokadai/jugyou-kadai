@@ -1,11 +1,11 @@
 let html = "<tr><th></th>";
-for(let x=1; x<=99; x+=1){
+for(let x=A; x<=E; x+=E){
     html +=  `<th>` + x + `</th>`
 }
 html += `</tr>`;
-for(let y=1; y<=99; y+=1){
+for(let y=A; y<=E; y+=E){
     html += `<tr><th>` + y + `</th>`;
-    for(let x=1; x<=99; x+=1){
+    for(let x=A; x<=E; x+=E){
         html += `<td>` + x*y + `</td>`;
     }
     html += `</tr>`;
